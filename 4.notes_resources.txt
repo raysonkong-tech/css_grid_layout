@@ -1,0 +1,38 @@
+Free Design
+
+https://noshit.xyz
+
+1. Change cover!!! to img with an image from noshit
+   give img class="cover"
+
+   .cover {
+     width: 20em; 
+   }
+
+   remove red from class= "container zone red"
+2. Make header sticky
+
+   - give nav class="sticky"
+
+   - .sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   }
+
+3. body {
+	font-family: Arial;
+}
+
+4. Make box tilt when hovered
+	
+		- copy .zone:hover, then change to transform: rotate(-7deg)
+
+   .box:hover {
+     ...transform: rotate(-7deg);
+     ...transform:  rotate(-7deg);
+     ...
+     transform:  rotate(-7deg);
+
+
+   }
